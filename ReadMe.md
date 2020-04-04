@@ -1,20 +1,25 @@
-Angular2 is Open source client side freamword develop by Google
-- Angular current version 9
-- Use can develop Single Page Application(SPA) for destop or mobile
+> What is Angular
+Angular/Angular2 is Open source client side freamwork develop by Google
+- Angular current is version 9
+- Use for develop Single Page Application(SPA) for destop or mobile
 - Angular freamwork build using TypeScript lang
 
-- Softeare required
-1. Node
-2. TypeScript 
-3. Angular CLI
-4. Editor (vs code)
+Software required 
+- Node
+- Editor(VSCode)
 
-How to install node.
-Node is runtime which execute javascript code at server side
-- it's single threaded
+library required 
+- TypeScript 
+- Angular CLI
+
+> How to install node.
+>Node is runtime which execute javascript code at server side,
+ it's single threaded
 - We can compare node with other server side techonlogy like java, C#, C
 - Node develop by Goolge
 - It's also called as V8 engine (which is use by chrome browser)
+
+
 Download url : https://nodejs.org/en/download/
 LTS version (Long team support) means stable version
 Current version (under development) not fully tested(beta version)
