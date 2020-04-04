@@ -1,5 +1,5 @@
-> What is Angular
-Angular/Angular2 is Open source client side freamwork develop by Google
+#### What is Angular
+ Angular/Angular2 is Open source client side freamwork develop by Google
 - Angular current is version 9
 - Use for develop Single Page Application(SPA) for destop or mobile
 - Angular freamwork build using TypeScript lang
@@ -12,64 +12,80 @@ library required
 - TypeScript 
 - Angular CLI
 
-> How to install node.
->Node is runtime which execute javascript code at server side,
+#### What is NodeJs
+Node is runtime which execute javascript code at server side,
  it's single threaded
 - We can compare node with other server side techonlogy like java, C#, C
 - Node develop by Goolge
 - It's also called as V8 engine (which is use by chrome browser)
 
-
+#### How to install node
 Download url : https://nodejs.org/en/download/
-LTS version (Long team support) means stable version
-Current version (under development) not fully tested(beta version)
+- LTS version (Long team support) means stable version
+- Current version (under development) not fully tested(beta version)
 
-How to install editor VS code
-- Develop by microsfot
-Url : https://code.visualstudio.com/
+#### How to install editor VS code
+- Downlad Url : https://code.visualstudio.com/
 
 
-How to verify node install ?
-- open command prompt (cmd) and type 
-> node
-or use can check node version by 
->node --version comnad
+#### How to verify node install ?
+- Open doc command Window+R / cmd 
+- &gt;node --version
 
-What is npm ?
-> it's just like maven repository, using npm we can download any javascript library
 
-How to install libraray using npm
-> open cmd where u need to downaload and type
-npm install <libraryname> or npm i <libraryname>
+#### What is npm ?
+it's just like maven repository, using npm we can download any javascript library/package. 
+it auto come with node (not need to install separately)
+https://www.npmjs.com/
 
-ex. npm install typescript
+#### How to install libraray using npm
+- Open doc command Window+R / cmd 
+- &gt; npm install &lt;libraryname&gt; or npm i &lt;libraryname&gt;
+| ex. npm install typescript
 
-what is angular cli >
-Angular cli is like prebuild project template which is use to setup anguar project easy.
+#### what is angular cli
+Angular cli is like prebuild project template which is use to setup anguar project easly.
 it's managed and develop by angular tool team.
 
+installtion step https://cli.angular.io/
 
-How to compile typescript file.
-> tsc filename.ts
+#### How to install typescript file.
+&gt; npm install -g typescript
 
-How to run typescript file.
-> you can not run typescript file directly. first you have to compile ts file. 
-> tsc filename.ts   //ts it's source 
-> node filename.js  //after compilation new file created with .js
+#### How to compile typescript file.
+&gt; tsc filename.ts
 
-How to run javascript file.
+#### How to run typescript file.
+you can not run typescript file directly. first you have to compile ts first file. 
+
+&gt; tsc filename.ts   //its it's compile .ts and generate .js file 
+
+&gt; node filename.js  //it's run js 
+
+
+#### How to run javascript file.
 > node filename.js
 
-How to setup angular project
+#### How to create angular project
+
 install angular cli
->npm i @angular/cli
+
+&gt;npm i @angular/cli
+
 create project "myfirstapp"
->npm new myfirstapp
-to run project - move to project folder by 
-cd myfirstapp
-to run
-ng serve
+
+&gt;npm new myfirstapp
+
+run project 
+
+&gt;cd myfirstapp
+
+&gt;ng serve
+
 to test project
-ng test
+
+&gt;ng test
+
 to production release/build
-ng build 
+
+&gt;ng build 
