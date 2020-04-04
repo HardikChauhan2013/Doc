@@ -29,8 +29,9 @@ Download url : https://nodejs.org/en/download/
 
 
 #### How to verify node install ?
-- Open doc command Window+R / cmd 
-- &gt;node --version
+Open doc command Window+R / cmd 
+
+&gt;node --version
 
 
 #### What is npm ?
@@ -43,8 +44,8 @@ https://www.npmjs.com/
 - &gt; npm install &lt;libraryname&gt; or npm i &lt;libraryname&gt;
 | ex. npm install typescript
 
-#### what is angular cli
-Angular cli is like prebuild project template which is use to setup anguar project easly.
+#### What is angular cli
+Angular cli(command line interface) is like prebuild project template which is use to setup anguar project easly.
 it's managed and develop by angular tool team.
 
 installtion step https://cli.angular.io/
@@ -89,3 +90,20 @@ to test project
 to production release/build
 
 &gt;ng build 
+
+
+#### How to create page/component in angular
+&gt;ng g component pagename
+
+&gt;ng g c pagename
+
+#### How to create service in angular
+&gt;ng g service servicename
+
+&gt;ng g s servicename
+
+#### How to create pipe in angular
+&gt;ng g pipe pipename
+
+&gt;ng g p pipename
+
