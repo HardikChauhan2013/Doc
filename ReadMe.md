@@ -65,7 +65,7 @@ you can not run typescript file directly. first you have to compile ts first fil
 
 
 #### How to run javascript file.
-> node filename.js
+&gt; node filename.js
 
 #### How to create angular project
 
