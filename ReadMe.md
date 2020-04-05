@@ -75,7 +75,7 @@ install angular cli
 
 create project "myfirstapp"
 
-&gt;npm new myfirstapp
+&gt;ng new myfirstapp
 
 run project 
 
